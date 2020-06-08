@@ -1,0 +1,70 @@
+$var: #38404a 0% 0% no-repeat padding-box;
+
+p {
+    text-align: center;
+    letter-spacing: 0.22px;
+    color: #5a5c62;
+    opacity: 1;
+}
+.section-left {
+    width: 104px;
+    position: absolute;
+    height: 1054px;
+    border: 1px solid #5a5c62;
+}
+
+.section-l {
+    width: 104px;
+    height: 147px;
+    background: #24282d 0% 0% no-repeat padding-box;
+    border-bottom: 1px solid #5a5c62;
+    opacity: 1;
+}
+.left.selected {
+    width: 98px;
+    height: 147px;
+    background: #38404a 0% 0% no-repeat padding-box;
+    border-left: 7px solid #318660;
+    border-right: 1px solid #5a5c62;
+    opacity: 1;
+}
+.bar-chart {
+    img {
+        padding: 46px 0 5px 35px;
+        width: 29px;
+        height: 25px;
+    }
+}
+.vsn {
+    @extend p;
+    padding: 0px 0px 10px 35px;
+}
+hr {
+    border: 1px solid #627081;
+}
+.quonda {
+    @extend p;
+    padding-left: 16px;
+}
+.qmip {
+    @extend p;
+    padding-left: 32px;
+}
+.protoware {
+    @extend p;
+    padding-left: 6px;
+}
+.color-confirmity {
+    @extend p;
+    padding-left: 12px;
+    #color {
+        padding-left: 12px;
+    }
+    #confirmity {
+        padding-left: 6px;
+    }
+}
+.vman {
+    @extend p;
+    padding-left: 28px;
+}

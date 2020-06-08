@@ -1,0 +1,162 @@
+@font-face {
+  font-family: "HelveticaNeue-Bold";
+  src: url("../fonts/HelveticaNeue-Bold.otf") format("opentype");
+  font-style: normal;
+}
+@font-face {
+  font-family: "HelveticaNeue-light";
+  src: url("../fonts/HelveticaNeue-Light.otf") format("opentype");
+  font-style: normal;
+}
+@font-face {
+  font-family: "HelveticaNeue-Regular";
+  src: url("../fonts/HelveticaNeue-Medium.otf") format("opentype");
+  font-style: normal;
+}
+@font-face {
+  font-family: "SF-UI-Display-Light";
+  src: url("../fonts/SF-UI-Display-Light.otf") format("opentype");
+  font-style: normal;
+}
+body {
+  margin: 0;
+  padding: 0;
+  font-family: "SF-UI-Display-Light";
+  background-color: #38404A;
+  min-height: 100vh;
+}
+
+ul {
+  padding: 0;
+  margin: 0;
+}
+ul li {
+  list-style: none;
+}
+
+.main-container {
+  display: flex;
+}
+.main-container .middle-section {
+  width: calc(100% - 208px);
+}
+
+h1, h2, h3, h4, h5, h6, p {
+  margin: 0;
+  padding: 0;
+}
+
+a {
+  text-decoration: none;
+  color: #FFFFFF;
+}
+
+header .logo img {
+  width: 87px;
+  height: 79px;
+  padding: 13px 0 0 22px;
+}
+header .source_pro img {
+  width: 204px;
+  height: 31px;
+  padding: 38px 1258px 22px 20px;
+}
+header .bell img {
+  width: 33px;
+  height: 31px;
+  padding: 30px 40px 22px 40px;
+  margin: 0px -5px 9px 1px;
+  border: 1px solid #627081;
+  border-bottom: none;
+}
+header .user img {
+  width: 30px;
+  height: 39px;
+  padding: 22px 40px 22px 40px;
+  margin: 0px 0px 9px 0px;
+  border: 1px solid #627081;
+  border-bottom: none;
+}
+header .menu img {
+  width: 18px;
+  height: 20px;
+  padding: 47px 33px 27px 38px;
+}
+header .hr1 {
+  margin: -14px 93px 0px 129px;
+  border: 1px solid #627081;
+}
+header .hr2 {
+  margin: 0px 93px 0px 105px;
+  border: 1px solid #627081;
+}
+header .heading {
+  padding: 7px 0px 0px 80px;
+  width: 605px;
+  height: 14px;
+  text-align: center;
+  font: 65 Medium 14px/20px Helvetica Neue LT Com;
+  letter-spacing: 2.8px;
+  color: #717680;
+  opacity: 1;
+}
+header .heading span {
+  padding: 0px 29px;
+}
+header .time {
+  padding: 0px 0px 0px 1068px;
+  width: 122px;
+  height: 14px;
+  text-align: center;
+  font: 65 Medium 14px/20px Helvetica Neue LT Com;
+  letter-spacing: 2.8px;
+  color: #ffffff;
+  opacity: 1;
+  border-right: 1px solid #627081;
+}
+header .time img {
+  width: 15px;
+}
+
+body {
+  width: 1920px;
+  height: 1132px;
+  background: #38404a 0% 0% no-repeat padding-box;
+  opacity: 1;
+}
+
+p {
+  padding: 0 0 44px 35px;
+  width: 25px;
+  height: 12px;
+  text-align: left;
+  letter-spacing: 0.22px;
+  color: #5a5c62;
+  opacity: 1;
+}
+
+section {
+  width: 104px;
+  height: 874px;
+  background: #24282d 0% 0% no-repeat padding-box;
+  opacity: 1;
+}
+section .bar-chart img {
+  padding: 44px 0 0 35px;
+  width: 29px;
+  height: 25px;
+}
+section .vsn p {
+  padding: 0 0 44px 35px;
+}
+section .quonda p {
+  padding: 0 0 44px 16px;
+}
+section .qmip p {
+  padding: 0 0 44px 25px;
+}
+section hr {
+  border: 1px solid #627081;
+}
+
+/*# sourceMappingURL=main.css.map */

@@ -1,0 +1,91 @@
+header {
+    .logo {
+        img {
+            width: 87px;
+            height: 79px;
+            padding: 13px 0 0 22px;
+        }
+    }
+    .source_pro {
+        img {
+            width: 204px;
+            height: 31px;
+            padding: 38px 0px 22px 20px;
+            // border-bottom: 1px solid #627081;
+            // padding: 0px 0px 0px 1260px;
+        }
+    }
+    .bell {
+        img {
+            width: 33px;
+            height: 39px;
+            padding: 20px 38px 22px 38px;
+            border: 1px solid #627081;
+            // border-bottom: none;
+            float: right;
+        }
+    }
+    .user {
+        img {
+            width: 30px;
+            height: 39px;
+            padding: 20px 39px 22px 38px;
+            margin-right: 13px;
+            // margin: 0px 0px 9px 0px;
+            border: 1px solid #627081;
+            // border-bottom: none;
+            float: right;
+            // background: #9197a4 0% 0% no-repeat padding-box;
+        }
+    }
+    .menu {
+        img {
+            width: 18px;
+            height: 20px;
+            padding: 47px 33px 27px 38px;
+            float: right;
+        }
+    }
+    // .empty {
+    //     padding: 0px 0px 0px 1260px;
+    // }
+    .hr1 {
+        margin: -14px 103px 0px 129px;
+        border: 1px solid #627081;
+    }
+    .hr2 {
+        margin: 0px 103px -2px 105px;
+        border: 1px solid #627081;
+    }
+    .heading {
+        padding: 7px 0px 0px 80px;
+        width: 605px;
+        height: 14px;
+        text-align: center;
+        font: 65 Medium 14px/20px Helvetica Neue LT Com;
+        font-size: 14px;
+        letter-spacing: 2.8px;
+        color: #717680;
+        opacity: 1;
+        span {
+            padding: 0px 36px;
+        }
+    }
+    .time {
+        letter-spacing: 2.8px;
+        color: #ffffff;
+        opacity: 1;
+        border-right: 1px solid #627081;
+        width: 63%;
+        display: inline-block;
+        text-align: right;
+        position: relative;
+        right: 6px;
+         margin-left: -16px;
+        padding: 0px 12px 5px 0;
+        img {
+            width: 15px;
+            padding: 3px 0 0 0;
+        }
+    }
+}

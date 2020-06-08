@@ -1,0 +1,66 @@
+$var: #38404a 0% 0% no-repeat padding-box;
+
+.section-right {
+    float: right;
+    width: 104px;
+    height: 1054px;
+    border: 1px solid #5a5c62;
+}
+.section-r {
+    height: 179px;
+    background: #38404a 0% 0% no-repeat padding-box;
+    border-bottom: 1px solid #5a5c62;
+    opacity: 1;
+}
+
+.right.selected {
+    width: 96px;
+    height: 179px;
+    background: #2d333b 0% 0% no-repeat padding-box;
+    // background: orange;
+    border-right: 7px solid #318660;
+    border-left: 1px solid #5a5c62;
+    opacity: 1;
+}
+.bar-chart {
+    img {
+        padding: 46px 0 5px 27px;
+        width: 50px;
+        height: 50px;
+    }
+}
+.dashboard {
+    @extend p;
+    padding: 0px 0px 10px 15px;
+}
+hr {
+    border: 1px solid #627081;
+}
+.colorlibrary {
+    @extend p;
+    padding-left: 20px;
+    #color {
+        padding-left: 12px;
+    }
+    #library {
+        padding-left: 28px;
+    }
+}
+.colorcompare {
+    @extend p;
+    padding-left: 20px;
+    #color {
+        padding-left: 12px;
+    }
+    #compare {
+        padding-left: 20px;
+    }
+}
+.kpis {
+    @extend p;
+    padding-left: 34px;
+}
+.decisions {
+    @extend p;
+    padding-left: 17px;
+}
